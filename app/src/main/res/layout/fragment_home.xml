@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp">
+
+            <TextView
+                android:id="@+id/todayDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="02-sep-2023"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/iconbg_border"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/avatar" />
+
+            <LinearLayout
+                android:id="@+id/userNameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/profile"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/quick_regular"
+                    android:text="@string/welcome_back"
+                    android:textColor="@color/l_white"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/quick_bold"
+                    android:text="Mohsin Abid"
+                    android:textColor="@color/white_txt"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/iconbg_border"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/bell" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/availableBalanceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:fontFamily="@font/quick_regular"
+                android:text="@string/available_balance"
+                android:textColor="@color/white_txt"
+                android:textSize="@dimen/_11sdp" />
+
+            <LinearLayout
+                android:id="@+id/availableBalanceLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/availableBalanceTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quick_bold"
+                    android:text="PKR."
+                    android:textColor="@color/white_txt"
+                    android:textSize="@dimen/_18sdp" />
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/quick_bold"
+                    android:text="0"
+                    android:textColor="@color/white_txt"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/withDrawAndDepositLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/availableBalanceLayout"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/withDrawButton"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_purple_txt"
+                    android:fontFamily="@font/quick_bold"
+                    android:text="@string/with_draw"
+                    app:cornerRadius="30dp"
+                    app:icon="@drawable/left_down_arrow"
+                    app:iconGravity="textStart"
+                    app:iconSize="@dimen/_18sdp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/depositButton"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/app_bg"
+                    android:fontFamily="@font/quick_bold"
+                    android:text="@string/deposit"
+                    android:textColor="@color/light_purple_txt"
+                    app:cornerRadius="30dp"
+                    app:icon="@drawable/right_up_arrow"
+                    app:iconGravity="textStart"
+                    app:iconSize="@dimen/_18sdp"
+                    app:iconTint="@color/light_purple_txt"
+                    app:strokeColor="@color/light_purple_txt"
+                    app:strokeWidth="2dp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardShowPoints"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_115sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/home_card_clr"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:strokeWidth="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/home_card_clr">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/show_points"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/points"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardTeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/home_card_clr"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:strokeWidth="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/home_card_clr">
+
+                        <TextView
+                            android:id="@+id/teamSizeTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/team_size"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/teamCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/teamSizeTxt"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="23"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_17sdp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/teams"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/inviteCard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/home_card_clr"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:strokeWidth="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/home_card_clr">
+
+                        <TextView
+                            android:id="@+id/dollarRateTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/dollar_rate"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/dollarRate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dollarRateTxt"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="23"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_17sdp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="11dp"
+                            android:layout_marginBottom="6dp"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/dollar_rate"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/inviteCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_115sdp"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/home_card_clr"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:strokeWidth="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/home_card_clr">
+
+                        <TextView
+                            android:id="@+id/inviteCardTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/invite"
+                            android:textColor="@color/white_txt"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:id="@+id/inviteCardIcon"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/network"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

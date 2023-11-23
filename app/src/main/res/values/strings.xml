@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Speed24</string>
+    <string name="hello_txt">Hello!</string>
+    <string name="login_txt">Please login for more excitement</string>
+    <string name="signup_txt">Please sign up for more excitement</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="dollar_rate">Dollar Rate</string>
+    <string name="with_draw">Withdraw</string>
+    <string name="deposit">Deposit</string>
+    <string name="show_points">Show Points</string>
+    <string name="team_size">Team Size</string>
+    <string name="invite">Invite a friend</string>
+    <string name="MyMapApiKey">AIzaSyAeUk3zL2dPXtHNfqSAI7jJzPs-cqypRQk</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="no_account">No account?</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="create_one">Create one</string>
+    <string name="referral_id">Referral ID</string>
+    <string name="have_account">Already have an account</string>
+    <string name="login_now">Please log in now</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="signup">Create New Account</string>
+    <string name="no_have_an_account">No have an account?</string>
+    <string name="join_us">Join</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="referral">Referral ID</string>
+    <string name="enter_referral">Enter Referral ID</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter address</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_your_email_address_we_will_send_you_an_email_with_instructions">Please enter your email address. We will send you an email with instructions.</string>
+    <string name="next">Next</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="change_password">Change Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="home">Home</string>
+    <string name="total_balance">Total balance</string>
+    <string name="learn_more_about_our_privacy_policy_and_terms_of_service">Learn more about our Privacy policy and Terms and conditions</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_service">Terms and conditions</string>
+    <string name="opening_an_shakehand_account_is_subject_to_status_conditions_and_identity_checks">Opening an Shakehand account is subject to status, conditions and identity checks.</string>
+    <string name="i_accept_shakehand_terms_conditions_and_privacy_policy">I accept Terms and Conditions and Privacy Policy</string>
+    <string name="make_strong_relationship_with_your_team">Make strong \nrelationship with \nyour team</string>
+    <string name="we_help_you_to_connect_with_with_your_team_and_make_a_strong_bonding_with_your_teamate">We help you to connect with your team and make a strong bonding with your teammate</string>
+    <string name="team">Team</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="plans">Plans</string>
+    <string name="more">More</string>
+    <string name="select_your_plan">Select your plan</string>
+    <string name="search">Search</string>
+    <string name="pricing_plans">Pricing Plans</string>
+    <string name="preview">Preview</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="currency">Currency</string>
+    <string name="profile">Profile</string>
+    <string name="send_balance">Send Balance</string>
+    <string name="options">Options</string>
+    <string name="message">Message</string>
+    <string name="call">Call</string>
+    <string name="enter_phone">Enter phone</string>
+    <string name="pay">Pay</string>
+    <string name="proceed_to_pay">Proceed to pay</string>
+    <string name="add_comment">Add comment</string>
+    <string name="select_payment_method">Select Payment method</string>
+    <string name="dividing">Dividing</string>
+    <string name="direct_indirect">Direct indirect</string>
+    <string name="recharge">Recharge</string>
+    <string name="reseller">Reseller</string>
+    <string name="buy_points">Buy Points</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="how_we_work">How we work</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="valid_email">Please enter valid email</string>
+    <string name="fill_this">Please fill this field</string>
+    <string name="valid_pass">Password length must be more than 6 characters</string>
+    <string name="accept">Please accept terms conditions and privacy policy.</string>
+    <string name="error">OOPS! Something went wrong</string>
+    <string name="please_wait">Please wait</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="email_us">Email us</string>
+    <string name="chat_with_us">Chat with us</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="start_time">Start</string>
+    <string name="recharge_now">Recharge Now</string>
+    <string name="add_recharge">Add Recharge</string>
+    <string name="select_company">Select Company</string>
+    <string name="jazz">Jazz</string>
+    <string name="ufone">Ufone</string>
+    <string name="zong">Zong</string>
+    <string name="telenor">Telenor</string>
+    <string name="join_team">Join Team</string>
+    <string name="create_team">Create Team</string>
+    <string name="team_name">Team Name</string>
+    <string name="enter_team_name">Enter team name</string>
+    <string name="enter_referral_id">Enter referral ID</string>
+    <string name="start_robot">Start Robot</string>
+    <string name="robot_ends_in">Robot Ends in:</string>
+    <string name="zuco_bit">ZUCO Bit</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="no_team_found">No team found</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_amount">Please enter valid amount</string>
+
+    <string name="approved">Approve</string>
+    <string name="rejected">Reject</string>
+    <string name="pending">Pending</string>
+    <string name="current_status">Current status</string>
+    <string name="request_date">Request Date</string>
+    <string name="plan_detail">Plan Detail</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="levels">Levels</string>
+    <string name="points">Points</string>
+    <string name="point_2">Point 2</string>
+    <string name="point_3">Point 3</string>
+    <string name="point_4">Point 4</string>
+    <string name="point_5">Point 5</string>
+    <string name="point_1">Point 1</string>
+    <string name="change_plan">Upgrade plan</string>
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="TIME_KEY" translatable="false">AIzaSyDvcZldUAIAs-msxb-3N7x8eHniaHTQN5Q</string>
+    <string name="robot_is_running">Robot is running</string>
+    <string name="activation">Activation</string>
+    <string name="aazuco_working">Working</string>
+    <string name="account_status">Account status</string>
+    <string name="unfreeze">Unfreeze</string>
+    <string name="unfreeze_request">Unfreeze Request</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="pk_currency">PKR. </string>
+    <string name="dollar_currency">PKR: </string>
+    <string name="premium_sounds_amazing_n_please_select_plan_as_u_want">Premium sounds amazing. \n Please select plan as u want.</string>
+    <string name="bank_name">Bank name</string>
+    <string name="enter_bank_name">Enter bank name</string>
+    <string name="account_number">Account Number</string>
+    <string name="enter_account_number">Enter account number</string>
+    <string name="instructions">Instructions</string>
+    <string name="_1_please_send_the_amount_to_bank_account_written_above_n2_press_proceed_and_upload_receipt_picture">1. Please send the amount to bank account written above.\n2. Press proceed and upload receipt picture.</string>
+    <string name="upload_receipt_image">Upload receipt image</string>
+    <string name="about_us">About us</string>
+    <string name="about_data">Here will go about Shakehand </string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="update">Update</string>
+    <string name="team_points">Team points</string>
+    <string name="total_points">Total Points</string>
+    <string name="my_points">My points</string>
+    <string name="points_withdraw">Balance withdraw</string>
+    <string name="you_can_not_use_this_app_on_thid_device">Sorry, You can not use this app on this device.</string>
+    <string name="reset">Reset</string>
+    <string name="checkmail">Please check your email</string>
+    <string name="update_now">Update Now</string>
+    <string name="please_update_your_app">Please update your app</string>
+    <string name="amount">Amount</string>
+    <string name="remaining_limit_is">Remaining limit is:</string>
+    <string name="enter_transaction_id">Enter transaction id..</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="manage_bank_details">Manage bank details</string>
+    <string name="bank_details">Bank details</string>
+    <string name="accessibility_service_label">IMZI Service</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="account_holder_name">Account holder name</string>
+    <string name="iban_number">IBAN Number</string>
+    <string name="enter_amount_to_withdraw">Enter amount to withdraw</string>
+
+    <!-- test ids admob-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_open_ad" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admob_native_ad_unit" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!-- real ids admob-->
+    <!--    <string name="admob_app_id" translatable="false">ca-app-pub-3345404686774340~5951494435</string>-->
+    <!--    <string name="admob_banner_ad_unit_id" translatable="false">ca-app-pub-3345404686774340/1914394110</string>-->
+    <!--    <string name="admob_interstitial_ad_unit_id" translatable="false">ca-app-pub-3345404686774340/7905087391</string>-->
+    <!--    <string name="admob_open_ad" translatable="false">ca-app-pub-3345404686774340/2816412248</string>-->
+    <!--    <string name="admob_native_ad_unit" translatable="false">ca-app-pub-3345404686774340/7744718561</string>-->
+
+
+    <string name="title_activity_about_us_screen">AboutUsScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="copy_referral_id">Copy Referal ID</string>
+    <string name="invite_now">Invite Friend</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="invite_friends_and_get_benefits">Invite friends and get more benefits</string>
+    <string name="add_a_friend_in_shakehand_and_earn_points">Each time a person join Shakehand through your link you will get benefits</string>
+    <string name="if_you_want_to_make_money_you_are_at_right_place">If you want to make money you are at right place</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="teams">Team</string>
+    <string name="balance_deposit">Balance Deposit</string>
+    <string name="_1_tax_of_0_6_will_be_deduct_on_withdrawal_n2_minimum_withdrawal_is">1. Tax of 0.6% will be deduct on withdrawal at user side.\n2. Minimum withdrawal is</string>
+    <string name="share_balance">Share Balance</string>
+    <string name="share_now">Share Now</string>
+    <string name="receiver_key">Receiver Key</string>
+
+    <string name="enter_key">Enter key</string>
+    <string name="enter_balance">Enter Balance</string>
+    <string name="balance">Balance</string>
+    <string name="valid_balance">Enter Valid Balance</string>
+
+    <string name="valid_uid">Please enter valid id</string>
+</resources>

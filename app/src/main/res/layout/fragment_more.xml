@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.MoreFrag">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/quick_bold"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/more"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/tutorials"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/plans_corner_bg"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/how_work"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/how_we_work"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Explore how we are working"
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <!--                -->
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/plans"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/plans_corner_bg"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/plans_icon"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/plans"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Select the plan which is best for you."
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/help"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/plans_corner_bg"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/help"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/help"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Troubleshoot an issue you are having."
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/setting"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/setting"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/settings"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Mange account and security details."
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/invite"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/plans_corner_bg"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/share"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/invite_a_friend"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Refer to others and create team."
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!--                here paste-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/balanceDeposit"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/withdrawusd"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/balance_deposit"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Check balance deposits"
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!--                here paste-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardDirectIndirect"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/direct_indirect"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/direct_indirect"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="See direct and indirect benefits"
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/balanceShare"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:outlineAmbientShadowColor="@color/purple_700"
+                    android:outlineSpotShadowColor="@color/purple_700"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_3sdp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/icon_bg_blue"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/withdrawusd"
+                            app:tint="@color/purple_700" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/quick_bold"
+                            android:text="@string/share_balance"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/quick_regular"
+                            android:text="Check balance share history"
+                            android:textColor="@color/l_black"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

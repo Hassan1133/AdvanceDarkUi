@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context=".Activities.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNav"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_above="@id/adView"
+        android:background="@drawable/bottom_nav_shape"
+        android:elevation="0dp"
+        android:padding="@dimen/_4sdp"
+        app:itemIconSize="@dimen/_18sdp"
+        app:itemIconTint="@drawable/bottom_navigation_selector"
+        app:itemTextAppearanceActive="@style/Style_TextView"
+        app:itemTextAppearanceInactive="@style/Style_TextView"
+        app:itemTextColor="@drawable/bottom_navigation_selector"
+        app:labelVisibilityMode="selected"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:adSize="BANNER"
+        app:adUnitId="@string/admob_banner_ad_unit_id" />
+</RelativeLayout>

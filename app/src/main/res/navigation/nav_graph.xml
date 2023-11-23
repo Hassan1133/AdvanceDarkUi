@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_withdrawalFragment"
+            app:destination="@id/withdrawalFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_moreFragment"
+            app:destination="@id/moreFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.Fragments.TeamFrag"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team"></fragment>
+    <fragment
+        android:id="@+id/withdrawalFragment"
+        android:name="com.example.Fragments.WithdrawalFrag"
+        android:label="fragment_withdrawal"
+        tools:layout="@layout/fragment_withdrawal" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.Fragments.MoreFrag"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more">
+        <action
+            android:id="@+id/action_moreFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_rechargeHistoryFragment"
+            app:destination="@id/rechargeHistoryFragment" />
+        <!--        <action-->
+        <!--            android:id="@+id/action_homeFragment_to_directIndirectFragment"-->
+        <!--            app:destination="@id/directIndirectFragment" />-->
+        <action
+            android:id="@+id/action_moreFragment_to_balanceShareFragment"
+            app:destination="@id/balanceShareFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_directIndirectFrag"
+            app:destination="@id/directIndirectFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.Fragments.SettingFrag"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.Fragments.HelpFrag"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/rechargeHistoryFragment"
+        android:name="com.example.Fragments.RechargeHistoryFrag"
+        android:label="fragment_recharge_history"
+        tools:layout="@layout/fragment_recharge_history" />
+    <!--    <fragment-->
+    <!--        android:id="@+id/directIndirectFragment"-->
+    <!--        android:name="com.example.Fragments.DirectIndirectFrag"-->
+    <!--        android:label="DirectIndirectFragment"-->
+    <!--        />-->
+    <fragment
+        android:id="@+id/balanceShareFragment"
+        android:name="com.example.Fragments.BalanceShareFragment"
+        android:label="fragment_balance_share"
+        tools:layout="@layout/fragment_balance_share" />
+    <fragment
+        android:id="@+id/directIndirectFrag"
+        android:name="com.example.Fragments.DirectIndirectFrag"
+        android:label="DirectIndirectFrag" />
+
+</navigation>

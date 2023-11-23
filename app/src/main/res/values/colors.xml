@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_bg">#19121E</color>
+    <color name="my_light_primary">#433351</color>
+    <color name="bg_circle_clr">#382744</color>
+    <color name="white_txt">#FFFFFFFF</color>
+    <color name="sub_Text">#b0bccb</color>
+    <color name="l_white">#F5F7FB</color>
+    <color name="edit_txt_hint_clr">#C2C1C1</color>
+    <color name="edit_txt_stroke_clr">#A095B3</color>
+    <color name="green">#22c998</color>
+    <color name="red">#ED859B</color>
+    <color name="orange">#EFD176</color>
+    <color name="divider_clr">#BFBFBF</color>
+    <color name="black_200">#2D2D2D</color>
+    <color name="l_black">#959595</color>
+    <color name="light_purple_txt">#A095B3</color>
+    <color name="suffix_txt_clr_yellow">#FFC107</color>
+    <color name="icon_stroke">#F5F5F5</color>
+    <color name="purple_700">@color/black</color>
+    <color name="purple_500">#649fff</color>
+    <color name="home_card_clr">#433351</color>
+</resources>

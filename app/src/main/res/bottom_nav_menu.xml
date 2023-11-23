@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        />
+<!--    <item-->
+<!--        android:id="@+id/teamFragment"-->
+<!--        android:title="@string/team"-->
+<!--        android:icon="@drawable/teamicon"-->
+<!--        />-->
+    <item
+        android:id="@+id/withdrawalFragment"
+        android:title="@string/withdrawal"
+        android:icon="@drawable/withdrawusd"
+        />
+<!--    <item-->
+<!--        android:id="@+id/directIndirectFragment"-->
+<!--        android:title="@string/direct_indirect"-->
+<!--        android:icon="@drawable/direct_indirect"-->
+<!--        />-->
+    <item
+        android:id="@+id/moreFragment"
+        android:title="@string/more"
+        android:icon="@drawable/moreic"
+        />
+</menu>
